@@ -1,4 +1,8 @@
 title: Peer Reviewed Conference Publications
+
+## 2026
+* T. Gajecki，J.Althof & Nogueira, W. (2025), **[Brain-Informed Speech Separation for Cochlear Implants](https://ieeexplore.ieee.org/document/11462713)** ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Barcelona, Spain, 2026, pp. 1-5, doi: 10.1109/ICASSP55912.2026.11462713.
+
 ## 2025
 * T. Gajecki & Nogueira, W. (2025), **[Adversarial Learning For End-To-End Cochlear Speech Denoising Using Lightweight Deep Learning Models](https://doi.org/10.1109/ICASSP49660.2025.10889865)** ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Hyderabad, India, 2025, pp. 1-5, doi: 10.1109/ICASSP49660.2025.10889865.
 
