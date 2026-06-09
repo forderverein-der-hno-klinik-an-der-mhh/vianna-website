@@ -38,7 +38,7 @@ title: Staff
 | :----------------------------------- | :------------------------------------------------------------------------------------------------- | -------------------------------------: |
 | ![Portrait](staff/Alrutz.jpg)	       | [Dr. rer. nat. Daniel Kipping](https://vianna.uber.space/01_workgroups/nogueira/staff/daniel.html) |                               	       |
 | ![Portrait](staff/caroline.jpg)      | Caroline Valim	                                                                                    |                                        |
-| ![Portrait](staff/Langner.jpg)     	 | Florian Langner                                                                                    |                                        |
+| ![Portrait](staff/empty.jpg)     	 | Florian Langner                                                                                    |                                        |
 | ![Portrait](staff/Imsiecke.jpg)      | Marina Imsiecke 			                                                                              | 	                                     |
 
 
