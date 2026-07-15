@@ -86,6 +86,7 @@ IGNORE_FILES = [
     ".pelican-build",
     ".pelican-build-deps",
     ".venv-pelican",
+    "docs",
     "html",
 ]
 PYCONF
