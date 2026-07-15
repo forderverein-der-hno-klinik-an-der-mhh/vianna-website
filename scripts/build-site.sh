@@ -83,6 +83,7 @@ IGNORE_FILES = [
     ".#*",
     ".git",
     ".github",
+    ".netlify",
     ".pelican-build",
     ".pelican-build-deps",
     ".venv-pelican",
