@@ -1,4 +1,7 @@
 html
+.venv-pelican
+.pelican-build
+.pelican-build-deps
 *.sublime-project
 *.sublime-workspace
 .DS_Store

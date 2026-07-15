@@ -1,0 +1,1421 @@
+# Netlify builds the static Pelican site and publishes its generated files.
+[build]
+  command = "bash scripts/build-site.sh"
+  publish = "html"
+
+[build.environment]
+  PYTHON_VERSION = "3.13"
+
+# Keep the legacy .html URL structure instead of Netlify's Pretty URLs.
+[build.processing.html]
+  pretty_urls = false
+
+# Legacy URL aliases formerly handled by Apache's .htaccess.
+# The original EnFI target /03_enfi-2015 is no longer generated; the rule below
+# points to the current published location instead.
+[[redirects]]
+  from = "/workgroups"
+  to = "/01_workgroups"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/workgroups/*"
+  to = "/01_workgroups/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/ags"
+  to = "/01_workgroups"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/ags/*"
+  to = "/01_workgroups/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/enfi-2015"
+  to = "/03_past-events/01_enfi-2015"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/enfi-2015/*"
+  to = "/03_past-events/01_enfi-2015/:splat"
+  status = 301
+  force = true
+
+# Directory URLs that Apache redirected to the matching Pelican .html page.
+[[redirects]]
+  from = "/01_workgroups"
+  to = "/01_workgroups.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/buechner"
+  to = "/01_workgroups/buechner.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/buechner/staff"
+  to = "/01_workgroups/buechner/staff.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/cas"
+  to = "/01_workgroups/cas.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/cas/methods"
+  to = "/01_workgroups/cas/methods.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/cas/methods/cochlearmodelling"
+  to = "/01_workgroups/cas/methods/cochlearmodelling.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/cas/projects"
+  to = "/01_workgroups/cas/projects.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/cas/projects/30_comet"
+  to = "/01_workgroups/cas/projects/30_comet.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/cas/projects/50_gluingjig"
+  to = "/01_workgroups/cas/projects/50_gluingjig.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/cas/projects/forceptiontool"
+  to = "/01_workgroups/cas/projects/forceptiontool.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/cas/projects/memoryci"
+  to = "/01_workgroups/cas/projects/memoryci.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/cas/projects/zz_finished"
+  to = "/01_workgroups/cas/projects/zz_finished.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/cas/projects/zz_finished/10_robojig"
+  to = "/01_workgroups/cas/projects/zz_finished/10_robojig.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/cas/projects/zz_finished/akvamed"
+  to = "/01_workgroups/cas/projects/zz_finished/akvamed.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/cas/projects/zz_finished/ems"
+  to = "/01_workgroups/cas/projects/zz_finished/ems.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/cas/projects/zz_finished/gentleci"
+  to = "/01_workgroups/cas/projects/zz_finished/gentleci.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/cas/projects/zz_finished/hexapod2"
+  to = "/01_workgroups/cas/projects/zz_finished/hexapod2.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/cas/publications"
+  to = "/01_workgroups/cas/publications.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/cas/staff"
+  to = "/01_workgroups/cas/staff.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/doll"
+  to = "/01_workgroups/doll.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/doll/50_ihear"
+  to = "/01_workgroups/doll/50_ihear.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/hoffmann"
+  to = "/01_workgroups/hoffmann.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/lenarz"
+  to = "/01_workgroups/lenarz.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/maier"
+  to = "/01_workgroups/maier.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/maier/staff"
+  to = "/01_workgroups/maier/staff.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/nogueira"
+  to = "/01_workgroups/nogueira.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/nogueira/projects"
+  to = "/01_workgroups/nogueira/projects.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/nogueira/projects/icostim"
+  to = "/01_workgroups/nogueira/projects/icostim.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/nogueira/projects/readihear"
+  to = "/01_workgroups/nogueira/projects/readihear.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/nogueira/publications"
+  to = "/01_workgroups/nogueira/publications.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/nogueira/research"
+  to = "/01_workgroups/nogueira/research.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/nogueira/staff"
+  to = "/01_workgroups/nogueira/staff.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/nogueira/teaching"
+  to = "/01_workgroups/nogueira/teaching.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/nogueira/technologies"
+  to = "/01_workgroups/nogueira/technologies.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/nogueira/transfer"
+  to = "/01_workgroups/nogueira/transfer.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/paasche"
+  to = "/01_workgroups/paasche.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/scheper"
+  to = "/01_workgroups/scheper.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/scheper/guinea pig volume model"
+  to = "/01_workgroups/scheper/guinea pig volume model.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/warnecke"
+  to = "/01_workgroups/warnecke.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/03_past-events"
+  to = "/03_past-events.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/03_past-events/01_enfi-2015"
+  to = "/03_past-events/01_enfi-2015.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/03_past-events/01_enfi-2015/programm"
+  to = "/03_past-events/01_enfi-2015/programm.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/03_past-events/02_cal-symposium-2015"
+  to = "/03_past-events/02_cal-symposium-2015.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/03_past-events/03_cal2017"
+  to = "/03_past-events/03_cal2017.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/03_past-events/04_ieb-2017"
+  to = "/03_past-events/04_ieb-2017.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/05_cooperations"
+  to = "/05_cooperations.html"
+  status = 301
+  force = true
+
+# Known Markdown URLs that Apache redirected to their generated HTML pages.
+[[redirects]]
+  from = "/home.md"
+  to = "/index.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups.md"
+  to = "/01_workgroups.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/ag-kral.md"
+  to = "/01_workgroups/ag-kral.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/buechner-de.md"
+  to = "/01_workgroups/buechner-de.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/buechner.md"
+  to = "/01_workgroups/buechner.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/buechner/buechner.md"
+  to = "/01_workgroups/buechner/buechner.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/buechner/publications.md"
+  to = "/01_workgroups/buechner/publications.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/buechner/staff.md"
+  to = "/01_workgroups/buechner/staff.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/cas.md"
+  to = "/01_workgroups/cas.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/cas/methods.md"
+  to = "/01_workgroups/cas/methods.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/cas/methods/cochlearmodelling.md"
+  to = "/01_workgroups/cas/methods/cochlearmodelling.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/cas/projects.md"
+  to = "/01_workgroups/cas/projects.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/cas/projects/30_comet.md"
+  to = "/01_workgroups/cas/projects/30_comet.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/cas/projects/50_gluingjig.md"
+  to = "/01_workgroups/cas/projects/50_gluingjig.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/cas/projects/chd.md"
+  to = "/01_workgroups/cas/projects/chd.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/cas/projects/forceptiontool.md"
+  to = "/01_workgroups/cas/projects/forceptiontool.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/cas/projects/memoryci.md"
+  to = "/01_workgroups/cas/projects/memoryci.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/cas/projects/zz_finished.md"
+  to = "/01_workgroups/cas/projects/zz_finished.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/cas/projects/zz_finished/10_robojig.md"
+  to = "/01_workgroups/cas/projects/zz_finished/10_robojig.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/cas/projects/zz_finished/akvamed.md"
+  to = "/01_workgroups/cas/projects/zz_finished/akvamed.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/cas/projects/zz_finished/ems.md"
+  to = "/01_workgroups/cas/projects/zz_finished/ems.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/cas/projects/zz_finished/gentleci.md"
+  to = "/01_workgroups/cas/projects/zz_finished/gentleci.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/cas/projects/zz_finished/hexapod2.md"
+  to = "/01_workgroups/cas/projects/zz_finished/hexapod2.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/cas/publications.md"
+  to = "/01_workgroups/cas/publications.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/cas/publications/o2026.md"
+  to = "/01_workgroups/cas/publications/o2026.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/cas/publications/p2025.md"
+  to = "/01_workgroups/cas/publications/p2025.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/cas/publications/q2024.md"
+  to = "/01_workgroups/cas/publications/q2024.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/cas/publications/r2023.md"
+  to = "/01_workgroups/cas/publications/r2023.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/cas/publications/s2022.md"
+  to = "/01_workgroups/cas/publications/s2022.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/cas/publications/t2021.md"
+  to = "/01_workgroups/cas/publications/t2021.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/cas/publications/u2020.md"
+  to = "/01_workgroups/cas/publications/u2020.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/cas/publications/v2019.md"
+  to = "/01_workgroups/cas/publications/v2019.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/cas/publications/w2018.md"
+  to = "/01_workgroups/cas/publications/w2018.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/cas/publications/x2017.md"
+  to = "/01_workgroups/cas/publications/x2017.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/cas/publications/y2016.md"
+  to = "/01_workgroups/cas/publications/y2016.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/cas/publications/z2015.md"
+  to = "/01_workgroups/cas/publications/z2015.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/cas/staff.md"
+  to = "/01_workgroups/cas/staff.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/doll.md"
+  to = "/01_workgroups/doll.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/doll/01_pagedoll.md"
+  to = "/01_workgroups/doll/01_pagedoll.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/doll/20_staff-de.md"
+  to = "/01_workgroups/doll/20_staff-de.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/doll/20_staff.md"
+  to = "/01_workgroups/doll/20_staff.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/doll/30_projects-de.md"
+  to = "/01_workgroups/doll/30_projects-de.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/doll/30_projects.md"
+  to = "/01_workgroups/doll/30_projects.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/doll/50_ihear.md"
+  to = "/01_workgroups/doll/50_ihear.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/doll/50_ihear/10_about.md"
+  to = "/01_workgroups/doll/50_ihear/10_about.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/doll/50_ihear/20_conferences.md"
+  to = "/01_workgroups/doll/50_ihear/20_conferences.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/doll/60_teaching.md"
+  to = "/01_workgroups/doll/60_teaching.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/doll/70_publications.md"
+  to = "/01_workgroups/doll/70_publications.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/doll/80_patents.md"
+  to = "/01_workgroups/doll/80_patents.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/doll/jobs-de.md"
+  to = "/01_workgroups/doll/jobs-de.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/doll/jobs.md"
+  to = "/01_workgroups/doll/jobs.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/hoffmann-de.md"
+  to = "/01_workgroups/hoffmann-de.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/hoffmann.md"
+  to = "/01_workgroups/hoffmann.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/hoffmann/publications.md"
+  to = "/01_workgroups/hoffmann/publications.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/hoffmann/staff.md"
+  to = "/01_workgroups/hoffmann/staff.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/hoffmann/vita.md"
+  to = "/01_workgroups/hoffmann/vita.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/lenarz.md"
+  to = "/01_workgroups/lenarz.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/maier.md"
+  to = "/01_workgroups/maier.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/maier/publications.md"
+  to = "/01_workgroups/maier/publications.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/maier/staff.md"
+  to = "/01_workgroups/maier/staff.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/maier/staff/hannes-de.md"
+  to = "/01_workgroups/maier/staff/hannes-de.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/maier/staff/hannes.md"
+  to = "/01_workgroups/maier/staff/hannes.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/maier/staff/mohammad.md"
+  to = "/01_workgroups/maier/staff/mohammad.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/maier/staff/rolf.md"
+  to = "/01_workgroups/maier/staff/rolf.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/nogueira.md"
+  to = "/01_workgroups/nogueira.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/nogueira/open_positions.md"
+  to = "/01_workgroups/nogueira/open_positions.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/nogueira/projects.md"
+  to = "/01_workgroups/nogueira/projects.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/nogueira/projects/icostim.md"
+  to = "/01_workgroups/nogueira/projects/icostim.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/nogueira/projects/readihear.md"
+  to = "/01_workgroups/nogueira/projects/readihear.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/nogueira/publications.md"
+  to = "/01_workgroups/nogueira/publications.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/nogueira/publications/1publications.md"
+  to = "/01_workgroups/nogueira/publications/1publications.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/nogueira/publications/2conferences.md"
+  to = "/01_workgroups/nogueira/publications/2conferences.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/nogueira/publications/3bookchapters.md"
+  to = "/01_workgroups/nogueira/publications/3bookchapters.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/nogueira/publications/4patents.md"
+  to = "/01_workgroups/nogueira/publications/4patents.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/nogueira/publications/5conferences.md"
+  to = "/01_workgroups/nogueira/publications/5conferences.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/nogueira/publications/6submitted.md"
+  to = "/01_workgroups/nogueira/publications/6submitted.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/nogueira/research.md"
+  to = "/01_workgroups/nogueira/research.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/nogueira/research/closed-loop.md"
+  to = "/01_workgroups/nogueira/research/closed-loop.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/nogueira/research/eas.md"
+  to = "/01_workgroups/nogueira/research/eas.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/nogueira/research/modelling.md"
+  to = "/01_workgroups/nogueira/research/modelling.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/nogueira/research/music_and_ci.md"
+  to = "/01_workgroups/nogueira/research/music_and_ci.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/nogueira/research/signal_processing.md"
+  to = "/01_workgroups/nogueira/research/signal_processing.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/nogueira/staff.md"
+  to = "/01_workgroups/nogueira/staff.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/nogueira/staff/a_nogueira.md"
+  to = "/01_workgroups/nogueira/staff/a_nogueira.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/nogueira/staff/benjamin.md"
+  to = "/01_workgroups/nogueira/staff/benjamin.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/nogueira/staff/daniel.md"
+  to = "/01_workgroups/nogueira/staff/daniel.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/nogueira/staff/franklin.md"
+  to = "/01_workgroups/nogueira/staff/franklin.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/nogueira/staff/hanna.md"
+  to = "/01_workgroups/nogueira/staff/hanna.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/nogueira/staff/jonas.md"
+  to = "/01_workgroups/nogueira/staff/jonas.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/nogueira/staff/nina.md"
+  to = "/01_workgroups/nogueira/staff/nina.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/nogueira/staff/patrick.md"
+  to = "/01_workgroups/nogueira/staff/patrick.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/nogueira/staff/robert.md"
+  to = "/01_workgroups/nogueira/staff/robert.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/nogueira/staff/sina.md"
+  to = "/01_workgroups/nogueira/staff/sina.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/nogueira/staff/tom.md"
+  to = "/01_workgroups/nogueira/staff/tom.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/nogueira/staff/yoon.md"
+  to = "/01_workgroups/nogueira/staff/yoon.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/nogueira/staff/zhang.md"
+  to = "/01_workgroups/nogueira/staff/zhang.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/nogueira/teaching.md"
+  to = "/01_workgroups/nogueira/teaching.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/nogueira/teaching/3daudio.md"
+  to = "/01_workgroups/nogueira/teaching/3daudio.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/nogueira/teaching/assp.md"
+  to = "/01_workgroups/nogueira/teaching/assp.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/nogueira/technologies.md"
+  to = "/01_workgroups/nogueira/technologies.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/nogueira/transfer.md"
+  to = "/01_workgroups/nogueira/transfer.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/nogueira/transfer/betterhear.md"
+  to = "/01_workgroups/nogueira/transfer/betterhear.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/paasche.md"
+  to = "/01_workgroups/paasche.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/paasche/publications.md"
+  to = "/01_workgroups/paasche/publications.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/paasche/staff.md"
+  to = "/01_workgroups/paasche/staff.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/scheper.md"
+  to = "/01_workgroups/scheper.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/scheper/dr. med. vet. verena scheper.md"
+  to = "/01_workgroups/scheper/dr. med. vet. verena scheper.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/scheper/guinea pig perilymph_proteome_publication.md"
+  to = "/01_workgroups/scheper/guinea pig perilymph_proteome_publication.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/scheper/guinea pig volume model.md"
+  to = "/01_workgroups/scheper/guinea pig volume model.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/scheper/projects.md"
+  to = "/01_workgroups/scheper/projects.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/scheper/publications.md"
+  to = "/01_workgroups/scheper/publications.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/scheper/staff.md"
+  to = "/01_workgroups/scheper/staff.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/warnecke.md"
+  to = "/01_workgroups/warnecke.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/warnecke/aw.md"
+  to = "/01_workgroups/warnecke/aw.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/warnecke/publications.md"
+  to = "/01_workgroups/warnecke/publications.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/01_workgroups/warnecke/staff.md"
+  to = "/01_workgroups/warnecke/staff.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/03_past-events.md"
+  to = "/03_past-events.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/03_past-events/01_enfi-2015.md"
+  to = "/03_past-events/01_enfi-2015.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/03_past-events/01_enfi-2015/contact.md"
+  to = "/03_past-events/01_enfi-2015/contact.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/03_past-events/01_enfi-2015/downloads.md"
+  to = "/03_past-events/01_enfi-2015/downloads.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/03_past-events/01_enfi-2015/organizing.md"
+  to = "/03_past-events/01_enfi-2015/organizing.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/03_past-events/01_enfi-2015/programm.md"
+  to = "/03_past-events/01_enfi-2015/programm.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/03_past-events/01_enfi-2015/programm/sessiona.md"
+  to = "/03_past-events/01_enfi-2015/programm/sessiona.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/03_past-events/01_enfi-2015/programm/sessionb.md"
+  to = "/03_past-events/01_enfi-2015/programm/sessionb.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/03_past-events/01_enfi-2015/programm/sessionc.md"
+  to = "/03_past-events/01_enfi-2015/programm/sessionc.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/03_past-events/01_enfi-2015/programm/sessiond.md"
+  to = "/03_past-events/01_enfi-2015/programm/sessiond.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/03_past-events/01_enfi-2015/programm/sessione.md"
+  to = "/03_past-events/01_enfi-2015/programm/sessione.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/03_past-events/01_enfi-2015/programm/tutoriala.md"
+  to = "/03_past-events/01_enfi-2015/programm/tutoriala.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/03_past-events/01_enfi-2015/programm/tutorialb.md"
+  to = "/03_past-events/01_enfi-2015/programm/tutorialb.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/03_past-events/01_enfi-2015/programm/tutorialc.md"
+  to = "/03_past-events/01_enfi-2015/programm/tutorialc.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/03_past-events/01_enfi-2015/pssa.md"
+  to = "/03_past-events/01_enfi-2015/pssa.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/03_past-events/01_enfi-2015/scientific.md"
+  to = "/03_past-events/01_enfi-2015/scientific.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/03_past-events/01_enfi-2015/sunday.md"
+  to = "/03_past-events/01_enfi-2015/sunday.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/03_past-events/02_cal-symposium-2015.md"
+  to = "/03_past-events/02_cal-symposium-2015.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/03_past-events/03_cal2017.md"
+  to = "/03_past-events/03_cal2017.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/03_past-events/03_cal2017/hotels.md"
+  to = "/03_past-events/03_cal2017/hotels.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/03_past-events/03_cal2017/location.md"
+  to = "/03_past-events/03_cal2017/location.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/03_past-events/04_ieb-2017.md"
+  to = "/03_past-events/04_ieb-2017.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/04_jobs.md"
+  to = "/04_jobs.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/05_cooperations.md"
+  to = "/05_cooperations.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/11.md"
+  to = "/11.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/about.md"
+  to = "/about.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/abstracts.md"
+  to = "/abstracts.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/acms.md"
+  to = "/acms.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/archives.md"
+  to = "/archives.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/author/the-vianna-research-team.md"
+  to = "/author/the-vianna-research-team.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/author/the-vianna-research-team2.md"
+  to = "/author/the-vianna-research-team2.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/cal2015-reg-failed.md"
+  to = "/cal2015-reg-failed.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/cal2015-reg-submitted.md"
+  to = "/cal2015-reg-submitted.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/categories.md"
+  to = "/categories.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/category/apg.md"
+  to = "/category/apg.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/category/news.md"
+  to = "/category/news.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/conferencelocation.md"
+  to = "/conferencelocation.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/datesdeadlines.md"
+  to = "/datesdeadlines.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/drafts/pages/microgrinding.md"
+  to = "/drafts/pages/microgrinding.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/drafts/pages/programm.md"
+  to = "/drafts/pages/programm.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/drafts/pages/roadmap.md"
+  to = "/drafts/pages/roadmap.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/drafts/pages/scope.md"
+  to = "/drafts/pages/scope.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/drafts/pages/tutorials.md"
+  to = "/drafts/pages/tutorials.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/enfi2015-reg-failed.md"
+  to = "/enfi2015-reg-failed.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/enfi2015-reg-submitted.md"
+  to = "/enfi2015-reg-submitted.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/ex_reuter_staff.md"
+  to = "/ex_reuter_staff.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/gallery.md"
+  to = "/gallery.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/hotels.md"
+  to = "/hotels.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/impressum.md"
+  to = "/impressum.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/index.md"
+  to = "/index.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/index2.md"
+  to = "/index2.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/license.md"
+  to = "/license.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/program.md"
+  to = "/program.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/programdet.md"
+  to = "/programdet.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/register.md"
+  to = "/register.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/registration.md"
+  to = "/registration.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/reuter.md"
+  to = "/reuter.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/reuter_publications.md"
+  to = "/reuter_publications.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/soundcrowd.md"
+  to = "/soundcrowd.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/speakers.md"
+  to = "/speakers.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/students.md"
+  to = "/students.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/tags.md"
+  to = "/tags.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/thesis.md"
+  to = "/thesis.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/travel.md"
+  to = "/travel.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/vips_in_pics.md"
+  to = "/vips_in_pics.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/visionworkshop2023.md"
+  to = "/visionworkshop2023.html"
+  status = 301
+  force = true
+
