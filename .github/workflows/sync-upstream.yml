@@ -26,6 +26,13 @@ jobs:
           ref: netlify
           fetch-depth: 0
 
+      - name: Configure merge commit identity
+        shell: bash
+        run: |
+          git config user.name "mhh-hno"
+          git config user.email "hno-presse@mh-hannover.de"
+          git config user.useConfigOnly true
+
       - name: Fetch and identify upstream
         id: upstream
         shell: bash
