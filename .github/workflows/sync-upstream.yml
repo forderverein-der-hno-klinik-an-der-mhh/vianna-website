@@ -1,0 +1,121 @@
+name: Sync upstream into Netlify branch
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Run away from the top of the hour, when GitHub's scheduler is busiest.
+    - cron: "17 * * * *"
+
+# The workflow only needs permission to update its two managed branches.
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-upstream-to-netlify
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    name: Merge upstream into netlify
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out the Netlify branch
+        uses: actions/checkout@v4
+        with:
+          ref: netlify
+          fetch-depth: 0
+
+      - name: Fetch and identify upstream
+        id: upstream
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          upstream_url="https://github.com/vianna-research/website.git"
+          if git remote get-url upstream >/dev/null 2>&1; then
+            git remote set-url upstream "$upstream_url"
+          else
+            git remote add upstream "$upstream_url"
+          fi
+
+          git fetch --prune upstream '+refs/heads/*:refs/remotes/upstream/*'
+
+          default_branch="$(git ls-remote --symref upstream HEAD | awk '/^ref:/ { sub("refs/heads/", "", $2); print $2; exit }')"
+          if [ -z "$default_branch" ]; then
+            echo "Unable to determine the upstream default branch." >&2
+            exit 1
+          fi
+
+          upstream_ref="refs/remotes/upstream/$default_branch"
+          git show-ref --verify --quiet "$upstream_ref"
+          upstream_sha="$(git rev-parse "$upstream_ref")"
+
+          echo "Upstream default branch: $default_branch"
+          echo "Upstream commit: $upstream_sha"
+          echo "default_branch=$default_branch" >> "$GITHUB_OUTPUT"
+          echo "upstream_ref=$upstream_ref" >> "$GITHUB_OUTPUT"
+          echo "upstream_sha=$upstream_sha" >> "$GITHUB_OUTPUT"
+
+      - name: Mirror upstream in upstream-main
+        shell: bash
+        env:
+          UPSTREAM_SHA: ${{ steps.upstream.outputs.upstream_sha }}
+        run: |
+          set -euo pipefail
+
+          mirror_ref="refs/heads/upstream-main"
+          remote_mirror_sha="$(git ls-remote --heads origin "$mirror_ref" | awk '{ print $1 }')"
+
+          if [ "$remote_mirror_sha" = "$UPSTREAM_SHA" ]; then
+            echo "upstream-main already mirrors $UPSTREAM_SHA; nothing to push."
+          elif [ -n "$remote_mirror_sha" ]; then
+            echo "Updating upstream-main from $remote_mirror_sha to $UPSTREAM_SHA."
+            git push --force-with-lease="$mirror_ref:$remote_mirror_sha" origin "$UPSTREAM_SHA:$mirror_ref"
+          else
+            echo "Creating upstream-main at $UPSTREAM_SHA."
+            git push origin "$UPSTREAM_SHA:$mirror_ref"
+          fi
+
+      - name: Merge upstream into netlify
+        id: merge
+        shell: bash
+        env:
+          UPSTREAM_REF: ${{ steps.upstream.outputs.upstream_ref }}
+          UPSTREAM_SHA: ${{ steps.upstream.outputs.upstream_sha }}
+        run: |
+          set -euo pipefail
+
+          echo "Netlify branch before merge: $(git rev-parse HEAD)"
+          echo "Merging upstream commit: $UPSTREAM_SHA"
+
+          if git merge-base --is-ancestor "$UPSTREAM_REF" HEAD; then
+            echo "netlify already contains the current upstream commit."
+            echo "merged=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          before_merge="$(git rev-parse HEAD)"
+          if ! git merge --no-ff --no-edit "$UPSTREAM_REF"; then
+            echo "Upstream merge has conflicts. No conflict was resolved automatically." >&2
+            git status --short
+            git diff --name-only --diff-filter=U || true
+            git merge --abort || true
+            exit 1
+          fi
+
+          after_merge="$(git rev-parse HEAD)"
+          echo "Netlify branch after merge: $after_merge"
+          if [ "$before_merge" = "$after_merge" ]; then
+            echo "merged=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "merged=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Push merged Netlify branch
+        if: steps.merge.outputs.merged == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          echo "Pushing merge commit $(git rev-parse HEAD) to netlify."
+          git push origin HEAD:refs/heads/netlify
