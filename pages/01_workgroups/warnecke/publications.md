@@ -1,5 +1,39 @@
 title: Publications
+## 2026
+* Marx J, Huang P, Sutter SO, Ertelt M, Kaiser O, Harre J, Schott J, Wilkes J, Neek-John P, Rossi A, Warnecke A, Schoeder CT, Schambach A, Staecker H, Büning H. **[Capsid-engineered AAV vector overcomes a key intracellular barrier and efficiently transduces spiral ganglion neurons in adult mice.](https://www.sciencedirect.com/science/article/pii/S3117387X26000042?via%3Dihub)** Mol Ther Adv. 2026 Jan 13;34(1):201669. doi: 10.1016/j.omta.2026.201669. eCollection 2026 Mar 12.
+
+* Fotouhi F, Nokhbedehghan Z, Khajavi M, Taghizadeh-Hesary F, Alizadeh R, Asghari A, Daneshmehr M, Warnecke A, Rohde E, Gimona M, Davachi SM, Aleemardani M, Bagher Z. **[Exploring the role of extracellular vesicles in otorhinolaryngology: From diagnostics to therapeutic potential.](https://www.sciencedirect.com/science/article/pii/S0378517326000827?via%3Dihub)** Int J Pharm. 2026 Mar 10;692:126634. doi: 10.1016/j.ijpharm.2026.126634. Epub 2026 Jan 29.
+
+* Wondimu SF, Khanduri R, Atanga J, Hippler M, Hofmann A, Hussal C, Kohler D, Krämmer S, Bog U, Wienhold T, Koenig M, Köber S, Mappes T, Lahann J, Kalt H, Freude W, Sleeman J, Warnecke A, Erbes T, Juhasz-Böss I, Koos C, Nazarenko I. **[Advancing liquid biopsy: whispering gallery mode laser detection of the HER2 cancer biomarker on extracellular vesicles.](https://pubs.rsc.org/lc/article/26/2/375/895269/Advancing-liquid-biopsy-whispering-gallery-mode)** Lab Chip. 2026 Jan 20;26(2):375-390. doi: 10.1039/d5lc00269a.
+
+## 2025
+* Tsilivigkos C, Di Micco R, Vitkos EN, Warnecke A. **[The Use of vHIT in the Differential Diagnosis Between Vestibular Migraine and Meniere's Disease: A Systematic Review and Meta-Analysis.](https://www.mdpi.com/2039-4349/16/1/1)** Audiol Res. 2025 Dec 19;16(1):1. doi: 10.3390/audiolres16010001.
+
+* Döring K, Abdel-Muhdy Z, Warnecke A, Klintschar M, Lanfermann H, Bleich S, Seifert J. **[Neuroimaging in Non-fatal Strangulation: a Retrospective Analysis of Injury Patterns, Clinical Features and Diagnostic Utility.](https://link.springer.com/article/10.1007/s00062-025-01597-2)** Clin Neuroradiol. 2026 Jun;36(2):473-484. doi: 10.1007/s00062-025-01597-2. Epub 2025 Dec 9.
+
+* Hazko S, Ahmed A, Hermann RM, Sonnhoff MA, Warnecke A, Bruns F, Blach R, Christiansen H, Becker JN. **[Impact of Hemoglobin Levels During Definite Chemoradiotherapy of Patients with Locally Advanced Head and Neck Squamous Cell Carcinoma on Survival.](https://www.mdpi.com/1648-9144/61/11/2027)** Medicina (Kaunas). 2025 Nov 13;61(11):2027. doi: 10.3390/medicina61112027.
+
+* Pan X, Huang P, Ali SS, Renslo B, Greenberg Z, Erwin N, Li Y, Ding Z, Hutchinson TE, Warnecke A, Fernandez NE, Staecker H, He M. **[Extracellular vesicle-mediated gene editing for the treatment of nonsyndromic progressive hearing loss in adult mice.](https://www.science.org/doi/10.1126/scitranslmed.adn3993?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed)** Sci Transl Med. 2025 Nov 12;17(824):eadn3993. doi: 10.1126/scitranslmed.adn3993. Epub 2025 Nov 12.
+
+* Döring K, Lanfermann H, Warnecke A, Giesemann A. **[Closure of Congenital Semicircular Dehiscence in the First 10 Years of Life.](https://www.thieme-connect.com/products/ejournals/abstract/10.1055/a-2725-8648)** Rofo. 2026 Jun;198(6):781-788. doi: 10.1055/a-2725-8648. Epub 2025 Nov 11.
+
+* Harre J, Wang D, Warnecke A, Zeilinger C. **[Exploring the binding sites of VRT534 at Cx26 as a putative chemical chaperone for targeted treatment of hereditary hearing disorders.](https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1607598/full)** Front Med (Lausanne). 2025 Sep 24;12:1607598. doi: 10.3389/fmed.2025.1607598. eCollection 2025.
+
+* Tsilivigkos C, Papantoniou K, Vitkos EN, Ferekidis E, Warnecke A. **[Alginates and laryngopharyngeal reflux: where we stand. A systematic review.](https://link.springer.com/article/10.1007/s00405-025-09693-2)** Eur Arch Otorhinolaryngol. 2025 Nov;282(11):5751-5764. doi: 10.1007/s00405-025-09693-2. Epub 2025 Oct 3.
+
+* Döring K, Salcher R, Lanfermann H, Lenarz T, Warnecke A, Giesemann A. **[Radiological Characterization of Malformations of the Internal Auditory Canal.](https://www.thieme-connect.com/products/ejournals/abstract/10.1055/a-2699-9904)** Rofo. 2026 Jun;198(6):763-773. doi: 10.1055/a-2699-9904. Epub 2025 Sep 29.
+
+* Döring K, Satyavolu S, Durisin M, Götz F, Lanfermann H, Warnecke A, Giesemann A. **[Long-term evaluation of otosclerosis on temporal bone CT.](https://www.thieme-connect.com/products/ejournals/abstract/10.1055/a-2659-8853)** Rofo. 2026 May;198(5):651-657. doi: 10.1055/a-2659-8853. Epub 2025 Jul 30.
+
+* Prenzler N, Salcher R, Büchner A, Warnecke A, Kley D, Batsoulis C, Vormelcher S, Mitterberger-Vogt M, Morettini S, Schilp S, Hochmair I, Lenarz T. **[Cochlear implantation with a dexamethasone-eluting electrode array: First-in-human safety and performance results.](https://www.sciencedirect.com/science/article/pii/S0378595525000747?via%3Dihub)** Hear Res. 2025 Jun;461:109255. doi: 10.1016/j.heares.2025.109255. Epub 2025 Mar 23.
+
 ## 2024
+* Christoffers S, Wichert N, Wiebe E, Torres-Mapa ML, Goblet M, Harre J, Kaiser O, Wahalla MN, Blume H, Heisterkamp A, Warnecke A, Blume C.**[Blue Light-Induced, Dosed Protein Expression of Active BDNF in Human Cells Using the Optogenetic CRY2/CIB System.](https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/biot.202400384)** Biotechnol J. 2024 Dec;19(12):e202400384. doi: 10.1002/biot.202400384.
+
+* Prentiss S, Warnecke A.**[Editorial: Inner ear therapeutics: the road to hearing rehabilitation and restoration.](https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2024.1477915/full)** Front Neurosci. 2024 Sep 30;18:1477915. doi: 10.3389/fnins.2024.1477915. eCollection 2024.
+
+* Fenov DM, Salcher R, Kludt E, Lesinski-Schiedat A, Harre J, Lenarz T, Giesemann A, Warnecke A.**[Long-term experience with biohybrid cochlear implants in human neurosensory restoration.](https://www.tandfonline.com/doi/10.1080/14670100.2024.2379124?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed)** Cochlear Implants Int. 2024 May;25(3):171-181. doi: 10.1080/14670100.2024.2379124. Epub 2024 Aug 19
+
 * Nassauer L, Schott JW, Harre J, Warnecke A, Morgan M, Galla M, Schambach A.**[The caspase-inhibitor Emricasan efficiently counteracts cisplatin- and neomycin-induced cytotoxicity in cochlear cells.](https://link.springer.com/article/10.1007/s00109-024-02472-2)** J Mol Med (Berl). 2024 Aug 7. doi: 10.1007/s00109-024-02472-2. Online ahead of print.
   
 * Giesemann A, Schöner-Heinisch A, Götz F, Steinemann D, Lesinski-Schiedat A, Warnecke A, Lanfermann H, Hartmann H, Döring K.**[Hamartomas of the Tuber Cinereum Associated with X-Linked Deafness Show Signs of Pubertas Tarda Instead of Pubertas Praecox and No Gelastic Seizures-Long-Term Follow-Up of 12 Years.](https://www.thieme-connect.com/products/ejournals/abstract/10.1055/s-0044-1788730)** Neuropediatrics. 2024 Jul 31. doi: 10.1055/s-0044-1788730. Online ahead of print.
