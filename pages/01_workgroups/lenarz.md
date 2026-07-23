@@ -1,4 +1,4 @@
-title: WG Lenarz - Specimen Preparation Laboratory
+title: WG Leichtle - Specimen Preparation Laboratory
 
 The Specimen Preparation Laboratory is equivalent to a standard temporal bone
 laboratory with an attached histology unit. Its premises are equipped for
@@ -48,6 +48,6 @@ implantation techniques and types of implant.
 
 ### Contact
 
--   Prof. Prof. h.c. Dr. med. T. Lenarz: <Lenarz.Thomas@mh-hannover.de>
+-   Prof. Dr. med. Anke Leichtle: <Leichtle.Anke@mh-hannover.de>
 
 -   P. Erfurt: <Erfurt.Peter@mh-hannover.de>
