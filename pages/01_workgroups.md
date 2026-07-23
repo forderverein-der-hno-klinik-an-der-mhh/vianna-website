@@ -3,7 +3,7 @@ title: Workgroups
 |                Directors                 |                                  Lab                                  |
 |------------------------------------------|-----------------------------------------------------------------------|
 | Prof. Dr. Dr. med. Andrej Kral           | [Auditory Neuroscience & Neuroprostheses](01_workgroups/ag-kral.html) |
-| Prof. Prof. h. c. Dr. med. Thomas Lenarz | [Specimen Preparation Laboratory](01_workgroups/lenarz.html)          |
+| Prof. Dr. med. Anke Leichtle | [Specimen Preparation Laboratory](01_workgroups/lenarz.html)          |
 
 Office: <sekretariat(at)vianna.de>
 
