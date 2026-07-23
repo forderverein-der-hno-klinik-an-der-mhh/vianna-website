@@ -33,6 +33,10 @@ Movie about the Institute (in German)
 
 ## News: Press releases:
 
+- [EnFI 2026 - 20th year of the Conference on Engineering of Functional Interfaces (07th - 08th July 2026)](https://www.mhh.de/hno/events/enfi-2026)
+
+- Symposium: The Future of Hearing Implants (12th - 13th June 2026)
+
 - [Vision Workshop: The Future of Hearing Implant (13th - 14th April 2023)](VisionWorkshop2023.html)
 
 - Prof. Andrej Kral elected member of the German National Academy of Science (Leopoldina)
@@ -53,7 +57,7 @@ Movie about the Institute (in German)
 
 | Contact                 |                            |
 | ------------------------|--------------------------- |
-| Directors:<br>          | [Prof. Dr. Dr. med. A. Kral, science](https://www.neuroprostheses.com/) <br> [Prof. Prof. h. c. Dr. med. T. Lenarz, translation](https://www.mhh-hno.de) |
+| Directors:<br>          | [Prof. Dr. Dr. med. A. Kral, science](https://www.neuroprostheses.com/) <br> [Prof. Dr. med. Anke Leichtle, translation](https://www.mhh-hno.de) |
 | Address: <br><br><br>   | VIANNA <br> Stadtfelddamm 34 <br> 30625 Hannover <br> Deutschland |
 | Phone:                  | +49 (0)511 532 7272 |
 | Fax:                    | +49 (0)511 532 7274 |
