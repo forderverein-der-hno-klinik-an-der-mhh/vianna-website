@@ -8,7 +8,7 @@ AVATAR = 'images/vianna_globe.png'
 ABOUT_ME = " "
 
 LINKS = [['Impressum', "/impressum.html"],
-         ['Datenschutzhinweise', "/datenschutz.html"],
+         ['Datenschutzhinweise', "/datenschutzhinweise.html"],
          ['MHH Homepage', "https://mh-hannover.de"],
          ['NIFE', "https://nife-hannover.de"],
          ['Hearing4all', "https://www.neuroprostheses.com/AK/Hearing4all.html"],

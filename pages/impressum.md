@@ -3,44 +3,46 @@ status: hidden
 
 ## Angaben nach § 5 TMG:
 
-**Medizinischen Hochschule Hannover (MHH)**
-Klinik und Poliklinik für Hals- Nasen- Ohrenheilkunde
-Carl-Neuberg-Str. 1
-30625 Hannover
+#### Medizinischen Hochschule Hannover (MHH) ####
+Klinik und Poliklinik für Hals- Nasen- Ohrenheilkunde  
+Carl-Neuberg-Str. 1  
+30625 Hannover  
 
-Tel.: +49 511-532-6565
-Fax: +49 511-532-5558
-E-Mail: hno-presse@mh-hannover.de
+Tel.: +49 511-532-6565  
+Fax: +49 511-532-5558  
+E-Mail: hno-presse@mh-hannover.de  
 
 Die MHH ist eine Anstalt des öffentlichen Rechts (Forschung und Lehre) und ein Landesbetrieb für staatliche Angelegenheiten (u.a. Krankenversorgung).
 
-**Inhaltlich Verantwortliche dieser Seiten gemäß § 10 Absatz 3 MDStV:**
+#### Inhaltlich Verantwortliche dieser Seiten gemäß § 10 Absatz 3 MDStV: ####
 Prof. Dr. med. Anke Leichtle
 Prof. Dr. Dr. med. A. Kral
 
-**Vertretungsberechtigter Vorstand (Präsidium):**
+#### Vertretungsberechtigter Vorstand (Präsidium): ####
 - Prof. Dr. Denise Hilfiker-Kleiner (Präsidentin)
 - Prof. Dr. med. Frank Lammert (Vizepräsident)
 - Dipl. Kauffrau Martina Saurin (Vizepräsidentin)
 
-**Zuständige Aufsichtsbehörde:**
-Niedersächsisches Ministerium für Wissenschaft und Kultur
+#### Zuständige Aufsichtsbehörde: #####
+Niedersächsisches Ministerium für Wissenschaft und Kultur  
 Leibnizufer 9, 30169 Hannover
 
-**Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:** DE 115650503
-**Institutionskennzeichen (IK-Nummer):** 260320597
+### Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz: ### 
+DE 115650503
+### Institutionskennzeichen (IK-Nummer): ###
+260320597
 
-**Inhaltlich Verantwortlicher gemäß § 55 Abs. 2 RStV:**
+### Inhaltlich Verantwortlicher gemäß § 55 Abs. 2 RStV: ###
 Prof. Dr. med. Anke Leichtle
 Prof. Dr. Dr. med. A. Kral
 
-## Adresse und Direktkontakt Verbundinstitut für Audioneurotechnologie und Nanobiomaterialforschung (VIANNA)
+### Adresse und Direktkontakt Verbundinstitut für Audioneurotechnologie und Nanobiomaterialforschung (VIANNA) ###
 
-Stadtfelddamm 34
-30625 Hannover
-Tel.: +49 (0)511 532 7272
-Fax: +49 (0)511 532 7274
-E-Mail: sekretariat(at)vianna.de (Sekretariat Prof. Kral )
+Stadtfelddamm 34  
+30625 Hannover  
+Tel.: +49 (0)511 532 7272  
+Fax: +49 (0)511 532 7274  
+E-Mail: sekretariat(at)vianna.de (Sekretariat Prof. Kral )  
 
 ---
 
@@ -48,7 +50,7 @@ E-Mail: sekretariat(at)vianna.de (Sekretariat Prof. Kral )
 
 ## 1. Inhalt des Onlineangebotes
 
-Die Autorinnen und Autoren übernehmen keinerlei Gewähr für die Aktualität, Korrektheit, Vollständigkeit oder Qualität der bereitgestellten Informationen. Haftungsansprüche gegen die Autorinnen und Autoren, welche sich auf Schäden materieller oder ideeller Art beziehen, die durch die Nutzung oder Nichtnutzung der dargebotenen Informationen bzw. durch die Nutzung fehlerhafter und unvollständiger Informationen verursacht wurden, sind grundsätzlich ausgeschlossen, sofern seitens der Autorinnen und Autoren kein nachweislich vorsätzliches oder grob fahrlässiges Verschulden vorliegt. Alle Angebote sind freibleibend und unverbindlich. Die Autorinnen und Autoren behalten sich ausdrücklich vor, Teile der Seiten oder das gesamte Angebot ohne gesonderte Ankündigung zu verändern, zu ergänzen und zu löschen.
+Die Autorinnen und Autoren übernehmen keinerlei Gewähr für die Aktualität, Korrektheit, Vollständigkeit oder Qualität der bereitgestellten Informationen.  Haftungsansprüche gegen die Autorinnen und Autoren, welche sich auf Schäden materieller oder ideeller Art beziehen, die durch die Nutzung oder Nichtnutzung der dargebotenen Informationen bzw. durch die Nutzung fehlerhafter und unvollständiger Informationen verursacht wurden, sind grundsätzlich ausgeschlossen, sofern seitens der Autorinnen und Autoren kein nachweislich vorsätzliches oder grob fahrlässiges Verschulden vorliegt. Alle Angebote sind freibleibend und unverbindlich. Die Autorinnen und Autoren behalten sich ausdrücklich vor, Teile der Seiten oder das gesamte Angebot ohne gesonderte Ankündigung zu verändern, zu ergänzen und zu löschen.
 
 ## 2. Verweise und Links
 

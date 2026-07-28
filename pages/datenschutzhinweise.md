@@ -1,8 +1,6 @@
 title: Datenschutzhinweise
 status: hidden
 
-# Datenschutzhinweise
-
 ## Informationen gemäß Art. 12–14 Datenschutzgrundverordnung (DSGVO)
 
 Im Rahmen der Nutzung der Webangebote verarbeitet diese Website auch personenbezogene Daten.
