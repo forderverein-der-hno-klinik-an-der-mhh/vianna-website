@@ -2,6 +2,9 @@ title: Publications
 
 ## 2026
 
+* Mosaieb Habib, Tim-Joshua Strauß, Jennifer Harre, Madeleine Goblet, Florian Klodwig-Kirstein, **Jana Schwieger**, **Michaela Kreienmeyer**, **Verena Scheper**, Athanasia Warnecke, Nina Ehlert, Peter Behrens
+[Nanoporous Silica Embedded in Nanoporous Platinum: A Versatile Composite Coating for Implant‐Associated Drug Delivery From Neuronal Electrodes](https://doi.org/10.1002/admt.202501958) Advanced Materials Technologies, July 2026
+
 * **Verena Scheper**, Thomas Lenarz, Thomas S. Rau, **Jana Schwieger**
 [Clinically Relevant In Vitro Model for Chronic Electrical Stimulation and Long-Term Evaluation of Cochlear Implant Electrode Functionalization](https://doi.org/10.18416/AUTOMED.2026.2504) Proceedings on Automation in Medical Engineering, March 2026
 
