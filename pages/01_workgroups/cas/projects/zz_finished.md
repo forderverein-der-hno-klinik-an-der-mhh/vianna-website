@@ -1,5 +1,5 @@
 Title: Finished Projects
-
+status: hidden
 
 
 ## [RoboJig](zz_finished/10_robojig.md)
