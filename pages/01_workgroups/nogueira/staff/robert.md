@@ -22,6 +22,8 @@ Research employee
 ---
 
 ### Publications
+Hart, R. A., Hinz, P., Nogueira, W. (2026). **Extracochlear Electric Stimulation – Toward Non-Invasive Hearing Restoration**. bioRxiv, 2026. https://doi.org/10.64898/2026.08.10.743874.
+
 ### Conference contributions (first author):
 - R. Hart, P. Hinz, C. Dragicevic, M. Meierott, B. Krüger, W. Nogueira (2026): **Extracochlear Electric Stimulation – Towards Non-Invasive Hearing Restoration and Diagnostics**. Association for Research in Otolaryngology (ARO), 2026.
 - R. Hart, T. Gajecki, W. Nogueira (2026)  **DeepFS4: An End-To-End Deep Learning Based Cochlear Implant Sound Coding Strategy.** Association for Research in Otolaryngology (ARO), 2026.
