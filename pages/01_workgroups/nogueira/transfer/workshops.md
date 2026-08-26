@@ -3,7 +3,7 @@ title: Workshops
 
 
 ## Readistim: Research Platform for Non-Invasive and Minimally Invasive Electrical–Acoustic Stimulation and Electrophysiological Recording
-**(Patrick Hinz)
+**(Patrick Hinz)**
 <br/>
 
 ### Description:
