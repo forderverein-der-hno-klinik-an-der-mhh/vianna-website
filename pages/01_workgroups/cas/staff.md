@@ -9,6 +9,7 @@ title:Staff
 |:--|:-------------------------------------------------|:--------------------------------------|
 |      | ***Research Team*** ||
 | ![Portrait](staff/Portrait_ThomasR.jpg){style="width:70px"} | PD Dr.-Ing. Thomas S. Rau <br> Head of Research Group <br>         | rau.thomas@mh-hannover.de <br> +49(0)511/532-3025  |
+| ![Portrait](staff/empty_male.png){style="width:70px"}  | M. Sc. Mohammad Al Rifai <br> Research Engineer <br>  | AlRifai.Mohammad@mh-hannover.de <br> +49(0)511/532-7264 |
 | ![Portrait](staff/Portrait_GeorgB.jpg){style="width:70px"}  | M. Sc. Georg Böttcher-Rebmann <br> Research Engineer <br>  | boettcher.georg@mh-hannover.de <br> +49(0)511/532-7264 |
 | ![Portrait](staff/Portrait_JakobC.jpg){style="width:70px"}    | M. Sc. Jakob Cramer <br> Research Engineer <br> | cramer.jakob@mh-hannover.de <br> +49(0)511/532-7264 |
 | ![Portrait](staff/Portrait_Anais.jpg){style="width:70px"} | M. Sc. Anais Millan Cerezo <br> Research Engineer | millancerezo.Anais@mh-hannover.de <br> +49(0)511/532-7263 |
@@ -19,20 +20,19 @@ title:Staff
 | ![Portrait](staff/rolf.jpg){style="width:70px"} | PD Dr. med. Rolf Salcher  <br> Senior Otolaryngologist, Skull Base Surgeon     		| salcher.rolf@mh-hannover.de|
 | ![Portrait](staff/Portrait_EralpA.jpg){style="width:70px"}  | Dr. med. Eralp Artukarslan <br> ENT Specialist | artukarslan.eralp-niyazi@mh-hannover.de |
 |  | ***Students*** ||  
-| ![Portrait](staff/empty_male.png){style="width:70px"}   | Al-Hattami Ayman       | Student Research Assistant |
-| ![Portrait](staff/empty_male.png){style="width:70px"}   | Clemens Oelze       | Bachelor Thesis |
-| ![Portrait](staff/empty_male.png){style="width:70px"}   | Jannes Brückner       | Student Research Assistant |
+| ![Portrait](staff/empty_male.png){style="width:70px"}   | Al-Hattami Ayman       | Student Research Assistant since 08/2026 |
+| ![Portrait](staff/Portrait_ClemensO.jpg){style="width:70px"}   | Clemens Oelze       | Bachelor Thesis |
+| ![Portrait](staff/empty_male.png){style="width:70px"}   | Jannes Brückner       | Student Research Assistant since 02/2026 |
 | ![Portrait](staff/empty_male.png){style="width:70px"}   | Juan Carlos Tirado       | Bachelor Thesis  |
-| ![Portrait](staff/empty_male.png){style="width:70px"}   | Luca Wöhlken       | Internship, <br> Student Research Assistant   |
-| ![Portrait](staff/empty_female.png){style="width:70px"}   | Friederike Redeker       | Internship. <br> Student Research Assistant  |
-| ![Portrait](staff/empty_male.png){style="width:70px"}   | Minh-Hai Nguyen       | Student Research Assistant  |
-| ![Portrait](staff/empty_male.png){style="width:70px"}   | Nassim El Haddad       | Student Research Project  |
-| ![Portrait](staff/empty_male.png){style="width:70px"}   | Oleksandr Kondratiev       | Student Research Assistant  |
-| ![Portrait](staff/empty_male.png){style="width:70px"}   | Roman Vargas       | Student Research Assistant  |
-| ![Portrait](staff/empty_female.png){style="width:70px"}   | Samareh Mohajeri       | Student Research Assistant  |
-| ![Portrait](staff/empty_male.png){style="width:70px"}   | Samer Bazz       | Student Research Project  |
-| ![Portrait](staff/empty_female.png){style="width:70px"}   | Shirin Mohebi Damabi       | Master Thesis  |
-| ![Portrait](staff/empty_male.png){style="width:70px"}   | Yamsi Nana Herman Alain        | Student Research Assistant  |
+| ![Portrait](staff/empty_male.png){style="width:70px"}   | Luca Wöhlken       | Internship, <br> Student Research Assistant since 09/2026  |
+| ![Portrait](staff/Portrait_FriederikeR.jpg){style="width:70px"}   | Friederike Redeker       | Internship. <br> Student Research Assistant  |
+| ![Portrait](staff/empty_male.png){style="width:70px"}   | Nassim El Haddad       | Student Research Project: _Development and Evaluation of Electrical Contacting Methods for Shape Memory Actuators in Cochlear Implants._  |
+| ![Portrait](staff/Portrait_OleksandrK.jpg){style="width:70px"}   | Oleksandr Kondratiev       | Student Research Assistant since 08/2026 |
+| ![Portrait](staff/empty_male.png){style="width:70px"}   | Roman Vargas       | Student Research Assistant since 04/2026  |
+| ![Portrait](staff/Portrait_SamarehM.jpg){style="width:70px"}   | Samareh Mohajeri       | Student Research Assistant since 12/2025 |
+| ![Portrait](staff/empty_male.png){style="width:70px"}   | Samer Bazz       | Student Research Project: _Intraoperative Registration Methods for Augmented Reality in Cochlear Implant Surgery: A Systematic Literature Review_  |
+| ![Portrait](staff/empty_female.png){style="width:70px"}   | Shirin Mohebi Damabi       | Master Thesis: _Development and evaluation of image-based tracking methods in stereo-optical mi-croscope videos of cochlear implant insertion._  |
+| ![Portrait](staff/Portrait_YamsiH.jpg){style="width:70px"}   | Yamsi Nana Herman Alain        | Student Research Assistant since 06/2026 |
 
 
 |  | Former Staff  ||
@@ -55,9 +55,11 @@ title:Staff
 
 | Alumni |  ||
 |:--|:------------------|:--------------------------------------|
+| ![Portrait](staff/empty_male.png){style="width:70px"}   | Minh-Hai Nguyen       | Student Research Assistant 02/2026 to 08/2026  |
 | ![Portrait](staff/empty_male.png){style="width:70px"}   | Mohammad Al Rifai | Master Thesis (2026): _Development of a wireless measurement system for insertion forces in CI surgery._ (In cooperation with Prof. Dr.-Ing. Hanno Homann, University of Applied Sciences and Arts, Hannover.
 | ![Portrait](staff/empty_male.png){style="width:70px"}   | Lucas Mey       | Master Thesis (2026): _Development, Fabrication and Validation of a Straightening Tool for a Steerable Cochlear Implant Electrode Array with Nitinol Inlays._ (In Cooperation with Cochlear Ltd., Syndey, Australia  |
-| ![Portrait](staff/empty_male.png){style="width:70px"}   | Dennis Christopher Michael       | Master Thesis (2026): _Development and Experimental Evaluation of a Temporal Bone Phantom for Detecting Artefacts During Insertion Force Measurements in Cochlear Implant Surgery._ (In cooperation with Prof. Dr. rer. nat. Mike Fornefett, Furtwangen University)   |
+| ![Portrait](staff/Portrait_DennisM.jpg){style="width:70px"}   | Dennis Christopher Michael       | Master Thesis (2026): _Development and Experimental Evaluation of a Temporal Bone Phantom for Detecting Artefacts During Insertion Force Measurements in Cochlear Implant Surgery._ (In cooperation with Prof. Dr. rer. nat. Mike Fornefett, Furtwangen University)   |
+| ![Portrait](staff/SujithaS.jpg){style="width:70px"}   | Sujitha Sundaram | Internship |
 | ![Portrait](staff/Portrait_NathalieB.jpg){style="width:70px"}     | Nathalie Bochynek       | Master Thesis (2025): _Development and experimental evaluation of a system for acoustic  insertion force monitoring in cochlear implant surgery._ |
 | ![Portrait](staff/empty_male.png){style="width:70px"}                               | Maximilian Keuter   | Student Research Assistant & <br> Master Thesis (2025): _Development and economic considerations of a wireless force-sensing insertion tool for CI surgeries._ |
 | ![Portrait](staff/christianm.png)                            | Christian Menke					  	| Medical Doctoral Thesis (2024): _Pull-Out Strength of Orthodontic Miniscrews in the Temporal Bone._ |
