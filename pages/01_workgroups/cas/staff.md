@@ -6,7 +6,7 @@ title:Staff
 
 
 |  | Members of the Group ||
-|:--|:-------------------------------------------------|:--------------------------------------|
+|:------------|:-------------------------------------------------|:------------------|
 |      | ***Research Team*** ||
 | ![Portrait](staff/Portrait_ThomasR.jpg){style="width:70px"} | PD Dr.-Ing. Thomas S. Rau <br> Head of Research Group <br>         | rau.thomas@mh-hannover.de <br> +49(0)511/532-3025  |
 | ![Portrait](staff/empty_male.png){style="width:70px"}  | M. Sc. Mohammad Al Rifai <br> Research Engineer <br>  | AlRifai.Mohammad@mh-hannover.de <br> +49(0)511/532-7264 |
@@ -59,7 +59,7 @@ title:Staff
 | ![Portrait](staff/empty_male.png){style="width:70px"}   | Mohammad Al Rifai | Master Thesis (2026): _Development of a wireless measurement system for insertion forces in CI surgery._ (In cooperation with Prof. Dr.-Ing. Hanno Homann, University of Applied Sciences and Arts, Hannover.
 | ![Portrait](staff/empty_male.png){style="width:70px"}   | Lucas Mey       | Master Thesis (2026): _Development, Fabrication and Validation of a Straightening Tool for a Steerable Cochlear Implant Electrode Array with Nitinol Inlays._ (In Cooperation with Cochlear Ltd., Syndey, Australia  |
 | ![Portrait](staff/Portrait_DennisM.jpg){style="width:70px"}   | Dennis Christopher Michael       | Master Thesis (2026): _Development and Experimental Evaluation of a Temporal Bone Phantom for Detecting Artefacts During Insertion Force Measurements in Cochlear Implant Surgery._ (In cooperation with Prof. Dr. rer. nat. Mike Fornefett, Furtwangen University)   |
-| ![Portrait](staff/SujithaS.jpg){style="width:70px"}   | Sujitha Sundaram | Internship |
+| ![Portrait](staff/Portrait_SujithaS.jpg){style="width:70px"}   | Sujitha Sundaram | Internship |
 | ![Portrait](staff/Portrait_NathalieB.jpg){style="width:70px"}     | Nathalie Bochynek       | Master Thesis (2025): _Development and experimental evaluation of a system for acoustic  insertion force monitoring in cochlear implant surgery._ |
 | ![Portrait](staff/empty_male.png){style="width:70px"}                               | Maximilian Keuter   | Student Research Assistant & <br> Master Thesis (2025): _Development and economic considerations of a wireless force-sensing insertion tool for CI surgeries._ |
 | ![Portrait](staff/christianm.png)                            | Christian Menke					  	| Medical Doctoral Thesis (2024): _Pull-Out Strength of Orthodontic Miniscrews in the Temporal Bone._ |
