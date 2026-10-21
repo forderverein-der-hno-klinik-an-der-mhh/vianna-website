@@ -1,5 +1,13 @@
 title: Conference Contributions
 ## 2026
+* Nogueira, W, Kipping, D., Strack, R., Krüger, B. Zhang, Y. **Extracochlear electric–acoustic interaction as the basis for a novel hearing device for restoration and diagnosis.** Innovations in Hearing Implant Research (IHI), 2026.
+* Strack, R., Alvarez, F, Zhang, Y and Nogueira, W **A Computational Model Framework for Investigating ElectricAcoustic Stimulation in the Auditory Periphery.** Innovations in Hearing Implant Research (IHI), 2026.
+* Pérez, X., Hart, R., Gajecki, T., Nogueira, W. **DeepFS4: An end-to-end Deep learning based cochlear mplant sound coding strategy.** Innovations in Hearing Implant Research (IHI), 2026.
+* Zhang, Y., Strack, R., Alvarez, F., Kipping, D., Nogueira W. **A Computational Model for Studying Electrode Montage Dependent Electrical Stimulation, Neural Health, and Electric–Acoustic Interactions.** Innovations in Hearing Implant Research (IHI), 2026.
+* Pérez, X., Hart, R., Gajecki, T., Nogueira, W. **DeepFS4: An end-to-end deep learning based cochlear implant sound coding strategy.** Deutsche Gesellschaft für Medizinische Physik (DGMP), 2026.
+* Stracke, R., Nogueira, W. **Ein integriertes Computermodell der Haarzellen- und auditorischen Nervenantworten auf akustische und elektrische Stimulation.** Deutsche Gesellschaft für Medizinische Physik (DGMP), 2026.
+* Nogueira, W. **End-to-end deep sound coding strategies for enhanced speech-in-noise understanding in cochlear implant users.** Deutsche Gesellschaft für Medizinische Physik (DGMP), 2026.
+* Nogueira, W. **Extracochlear electric stimulation – Towards non-invasive hearing restoration and diagnostics.** Deutsche Gesellschaft für Medizinische Physik (DGMP), 2026.
 * Hinz, P., Nogueira W. **Akustische Maskierung bei elektrischer Stimulation an der Cochlea-Basis: Auf dem Weg zum Diagnostiksystem.** Deutsche Gesellschaft für Audiologie e.V. (DGA), 2026.
 * Hart, R., Hinz, P., Dragicevic, C., Meierott, M., Krüger, B., Nogueira W. **Extrakochleäre elektrische Stimulation – Ein Ansatz Zur Nichtinvasiven Hörrehabilitation Und Diagnostik.** Deutsche Gesellschaft für Audiologie e.V. (DGA), 2026.
 *  Hart, R., Gajecki, T., Nogueira W.  **DeepFS4: End-to-End Deep Learning Basierte Soundcodierungsstrategie Für Cochlea-Implantate.** Deutsche Gesellschaft für Audiologie e.V. (DGA), 2026.
