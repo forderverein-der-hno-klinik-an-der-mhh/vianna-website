@@ -1,5 +1,24 @@
 title: Workshops
 ---
+## DeepF120: Deep learning based sound coding strategy for cochlear implants
+_(Xavier Pérez Ruiz & Renata Vasilescu, October 30th 2026, Institut de Recerca Sant Pau, Barcelona, Spain)_
+<br/>
+
+![DeepF120 Hardware setup](DeepF120_Demo.png "DeepF120 Hardware Setup")
+
+### Discription
+The demo showcased DeepF120 and the methodology used to conduct behavioral evaluations with cochlear implant (CI) subjects. The presentation featured a slide presentation alongside a hardware setup consisting of:
+- Clinician’s Programmer Interface (CPI): Serves as a bridge between the computer’s USB port and the speech processor. 
+- Speech Processor: Configured in relay mode to deliver precisely timed electrical pulse commands. 
+- Universal Headpiece (UHP): Acts as the transmitting coil. 
+- Cochlear Implant Receiver/Stimulator: Connected to an electrode board with coaxial outputs. 
+- PicoScope: Used to plot and visualize the electrical signals captured from the electrode board. 
+
+The demo first demonstrated how the electrode board and PicoScope are used to verify that the target stimulation pulses are transmitted as intended. Once verified, it showed how our custom implementation of the Oldenburg Sentence Test (OLSA) is used to behaviorally evaluate performance between our proposed strategy and baseline strategies. Finally, an adapted version using a vocoder for normal-hearing listeners was presented, allowing the audience to hear audio signals processed by the different strategies and compare their perceptual quality.
+
+### Application Areas:
+- Speech intelligibility of cochlear implants
+- Hardware interfacing and validation
 
 
 ## Readistim: Research Platform for Non-Invasive and Minimally Invasive Electrical–Acoustic Stimulation and Electrophysiological Recording
