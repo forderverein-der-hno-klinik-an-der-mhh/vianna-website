@@ -98,7 +98,7 @@ The ground-breaking nature of the READIHEAR project is to investigate the fundam
 
 ### Organizations and Knowledge Transfer
 #### Organized Conferences
-* Innovations in Hearing Implant Research (IHI) 2026: [IHI2026 Website](https://www.ihi2026.com/)
+* Innovations in Hearing Implant Research (IHI) 2026, Sant Feliu de Guíxols, Spain: [IHI2026 Website](https://www.ihi2026.com/)
   <img src="../impact/ihilogo.png" alt="IHI Logo" width="77px" height="103px"/>
 
 
