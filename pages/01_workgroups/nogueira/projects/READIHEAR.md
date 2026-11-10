@@ -95,6 +95,12 @@ The ground-breaking nature of the READIHEAR project is to investigate the fundam
 | :----------------------------------- | :------------------------------------------------------------------------------------------------- | -------------------------------------: |
 | ![Portrait](../staff/Alrutz.jpg)	       | [Dr. rer. nat. Daniel Kipping](https://vianna.uber.space/01_workgroups/nogueira/staff/daniel.html) |  |
 
+
+### Organizations and Knowladge Spread
+#### Organized Conferences
+* Innovations in Hearing Implant Research (IHI) 2026: [IHI2026 Website](https://www.ihi2026.com/)
+
+
 ### Peer-Reviewed Publications
 #### 2027
 * Patrick Hinz, Waldo Nogueira (2027): **[Acoustic masking of electric stimulation at basal and extra-cochlear sites](https://doi.org/10.1016/j.heares.2026.109835)**, Hearing Research 2027
@@ -123,7 +129,6 @@ The ground-breaking nature of the READIHEAR project is to investigate the fundam
                                                                                                                 
 
 ### Conference Contributions
-#### Organisation of the Innovations in Hearing Implant Research (IHI) 2026: [IHI2026 Website](https://www.ihi2026.com/)
 
 
 #### 2026
