@@ -88,14 +88,29 @@ The ground-breaking nature of the READIHEAR project is to investigate the fundam
 | ![Portrait](../staff/Hanna.jpeg)	       | [Hanna Dolhopiatenko](https://vianna.uber.space/01_workgroups/nogueira/staff/hanna.html)           | <Dolhopiatenko.Hanna@mh-hannover.de>   |
 | ![Portrait](../staff/Nina.jpg)	         | [Nina Aldag](https://vianna.uber.space/01_workgroups/nogueira/staff/nina.html)                     | <Aldag.Nina@mh-hannover.de>            |
 | ![Portrait](../staff/patrickSmall.jpg)	 | [Patrick Hinz](https://vianna.de/01_workgroups/nogueira/staff/patrick.html)	                      | <Hinz.Patrick@mh-hannover.de>          |
-| <img src="staff/Yixuan.jpg" alt="Yixuan Zhang" width="77px" height="103px"/>      	 | [Yixuan Zhang](https://vianna.de/01_workgroups/nogueira/staff/zhang.html)	                        | <Zhang.Yixuan@mh-hannover.de>          |
+| <img src="../staff/Yixuan.jpg" alt="Yixuan Zhang" width="77px" height="103px"/>      	 | [Yixuan Zhang](https://vianna.de/01_workgroups/nogueira/staff/zhang.html)	                        | <Zhang.Yixuan@mh-hannover.de>          |
 | <img src="../staff/Robert.jpg" alt="Robert Hart " width="77px" height="103px"/>	       | [Robert Hart](https://vianna.de/01_workgroups/nogueira/staff/robert.html)	                          | <Hart.Robert@mh-hannover.de>           |
 
 | Former Researchers &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
 | :----------------------------------- | :------------------------------------------------------------------------------------------------- | -------------------------------------: |
 | ![Portrait](../staff/Alrutz.jpg)	       | [Dr. rer. nat. Daniel Kipping](https://vianna.uber.space/01_workgroups/nogueira/staff/daniel.html) |  |
 
+
+### Organizations and Knowladge Spread
+#### Organized Conferences
+* Innovations in Hearing Implant Research (IHI) 2026: [IHI2026 Website](https://www.ihi2026.com/)
+
+
 ### Peer-Reviewed Publications
+#### 2027
+* Patrick Hinz, Waldo Nogueira (2027): **[Acoustic masking of electric stimulation at basal and extra-cochlear sites](https://doi.org/10.1016/j.heares.2026.109835)**, Hearing Research 2027
+
+#### 2026
+* Hanna Dolhopiatenko, Constanza Bruni, Waldo Nogueira (2026): **[Decoding selective attention in cochlear implant users with ipsilateral residual hearing](https://doi.org/10.1016/j.heares.2026.109589)**. Hearing Research.
+* Benjamin Krüger, Waldo Nogueira (2026): **[Phase coherence of cochlear microphonic potentials in cochlear implant users with ipsilateral residual hearing](https://doi.org/10.1121/10.0039540)** J. Acoust. Soc. Am. 1 January 2026; 159 (1): 924–940. https://doi.org/10.1121/10.0039540
+* Robert A. Hart, Patrick Hinz, Waldo Nogueira (2026). **[Extracochlear Electric Stimulation – Toward Non-Invasive Hearing Restoration](https://doi.org/10.64898/2026.08.10.743874)**. bioRxiv (Preprint), 2026.
+
+
 #### 2025
 * Hanna Dolhopiatenko, Waldo Nogueira (2025): **[Cortical temporal mismatch compensation in bimodal cochlear implant users: selective attention decoding and pupillometry study](http://arxiv.org/abs/2501.17048)**. Hearing Research (Under Review).
 * Benjamin Krüger, Waldo Nogueira (2025): Phase coherence of cochlear microphonic potentials in cochlear implant users with ipsilateral residual hearing. The Journal of the Acoustical Society of America, (Under Review). JASA-12021
@@ -114,6 +129,15 @@ The ground-breaking nature of the READIHEAR project is to investigate the fundam
                                                                                                                 
 
 ### Conference Contributions
+
+
+#### 2026
+* R. Hart, P. Hinz, C. Dragicevic, M. Meierott, B. Krüger, W. Nogueira (2026): **[Extracochlear Electric Stimulation – Towards Non-Invasive Hearing Restoration and Diagnostics]**. Association for Research in Otolaryngology (ARO), 2026.
+* P. Hinz, W. Nogueira (2026): **[Akustische Maskierung bei elektrischer Stimulation an der Cochlea-Basis: Auf dem Weg zum Diagnostiksystem]** Deutsche Gesellschaft für Audiologie e.V. (DGA), 2026.
+* R. Hart, P. Hinz, C. Dragicevic, M. Meierott, B. Krüger, W. Nogueira (2026) **[Extrakochleäre elektrische Stimulation – Ein Ansatz Zur Nichtinvasiven Hörrehabilitation Und Diagnostik]** Deutsche Gesellschaft für Audiologie e.V. (DGA), 2026.
+* P. Hinz, W. Nogueira (2025): **[Psychoacoustic Electric-Acoustic Masking with Round Window Extra-Cochlear Electric Stimulation in Cochlear Implant Users with Residual Hearing]** Association for Research in Otolaryngology (ARO), 2025.
+
+
 #### 2025
 * Franklin Alvarez, Yixuan Zhang, Daniel Kipping, Waldo Nogueira (2025): **A computational model for loudness recruitment based on spike activity for electrically stimulated cochlea**, ARO 2025, Orlando, USA.
 * Hanna Dolhopiatenko, Waldo Nogueira (2025): **Cortical Temporal Mismatch Compensation in Bimodal Cochlear Implant Users: A Selective Attention Decoding and Pupillometry Study**, ARO 2025, Orlando, USA.
