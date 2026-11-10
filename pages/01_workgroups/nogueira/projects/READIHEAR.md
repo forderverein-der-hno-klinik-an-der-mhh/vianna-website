@@ -96,7 +96,7 @@ The ground-breaking nature of the READIHEAR project is to investigate the fundam
 | ![Portrait](../staff/Alrutz.jpg)	       | [Dr. rer. nat. Daniel Kipping](https://vianna.uber.space/01_workgroups/nogueira/staff/daniel.html) |  |
 
 
-### Organizations and Knowladge Spread
+### Organizations and Knowledge Transfer
 #### Organized Conferences
 * Innovations in Hearing Implant Research (IHI) 2026: [IHI2026 Website](https://www.ihi2026.com/)
 
