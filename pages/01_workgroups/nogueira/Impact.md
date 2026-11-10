@@ -8,6 +8,7 @@ title: Impact
 Here one can find conferences organized by or with the APG.
 
 - Innovations in Hearing Implant Research (IHI) 2026: [IHI2026 Website](https://www.ihi2026.com/)
+<img src="/impact/ihilogo.png" alt="IHI Logo" width="77px" height="103px"/>
 
 - - -
 
