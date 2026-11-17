@@ -7,16 +7,18 @@ Prof. Dr. rer. nat. Gerrit Paasche | <paasche.gerrit@mh-hannover.de>
 ---------------------------
 
 **Research Team**
-Friederike Pohl, PhD.,
 Robert Schuon, MD.,
 Malena Timm, MD.,
 Lukas Lübbersmeyer, MUC.,
-Jannis-Fiete Riedemann, MUC.,
 Alexandra Napp,
-Katharina Schmitt,
-Stina Winkelmann,
 Lennart Fibranz,
-Vinzent Braemer,
+Vinzent Braemer, M.Sc.,
+Erika Hilbold, PhD,
+Judith Mangelsdorf,
+Friedrich Eickmann,
+Johannes (Corné) Vos,
+Sabrina Danz,
+Britt Vasen
 
 <!--
 
