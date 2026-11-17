@@ -1,5 +1,21 @@
 title: Publications
+## 2026
+* Drexler JF, Zhang Y, Rummel F, Hentschel G, Bode T, Mueller M, **Paasche G**, Glasmacher B. Curing-state-dependent rheology governs electrospinning of silicone elastomers for hydrophobic surface coatings. J Mater Sci Mater Med. 2026 Nov 5;37(1):136. doi: 10.1007/s10856-026-07125-z. 
+
+* Braemer V, **Paasche G**. Method for AFM investigation of lateral forces required for the surface detachment of neurites. Sci Rep. 2026 Jul 7;16(1):20999. doi: 10.1038/s41598-026-60250-1. 
+
+* Braemer V, Drexler J, Kötter L, Mueller M, Lenarz T, Glasmacher B, **Paasche G**. In vitro investigation of electrospun PVDF-TrFE fiber mats to reduce connective tissue growth after cochlear implantation. Front Bioeng Biotechnol. 2026 May 26;14:1826304. doi: 10.3389/fbioe.2026.1826304. 
+
+## 2025
+* Luo Y, Drexler J, **Paasche G**, Dräger G, Zhang H, Tang J, Lenarz T, Scheper V. 3D printing of dexamethasone-loaded polycaprolactone-enhanced alginate hydrogels for individualized implants in inner ear therapy. Int J Biol Macromol. 2025 Sep;323(Pt 2):147176. doi: 10.1016/j.ijbiomac.2025.147176. Epub 2025 Aug 27. 
+
+* Lübbersmeyer TL, Wissel K, Hoffmann A, Kötter L, Lenarz T, **Paasche G**. Establishing a non-viral transfection system for fibroblasts using branched polyethylenimine. PLoS One. 2025 Aug 5;20(8):e0329666. doi: 10.1371/journal.pone.0329666. 
+
+* Fibranz L, Behrends W, Wulf K, Raggl S, Kötter L, Eickner T, Schilp S, Lenarz T, **Paasche G**. Effects of Microstructured and Anti-Inflammatory-Coated Cochlear Implant Electrodes on Fibrous Tissue Growth and Neuronal Survival. J Funct Biomater. 2025 Jan 18;16(1):33. doi: 10.3390/jfb16010033. 
+
 ## 2024
+* Schmitt K, Timm M, Krüger P, Oppel N, Napp A, Pohl F, Schuon R, Kötter L, Bankstahl M, Lenarz T, Stein T, **Paasche G**. First Investigation of a Eustachian Tube Stent in Experimentally Induced Eustachian Tube Dysfunction. Bioengineering (Basel). 2024 Oct 11;11(10):1015. doi: 10.3390/bioengineering11101015. 
+
 * Winkelmann S, Lebahn K, Ezzat M, Schmitt K, Napp A, Oppel N, Pohl F, Kampmann A, Grabow N, Lenarz T, **Paasche G**. First in vivo test of a biodegradable polymeric stent for the Eustachian tube in sheep. Front. Audiol. Otol. 2024 2:1414831. doi: 10.3389/fauot.2024.1414831
 
 * Schmitt K, Timm M, Krüger P, Oppel N, Napp A, Pohl F, Schuon R, Kampmann A, Kötter L, Bankstahl M, Lenarz T, Stein T, **Paasche G**. Long-Term Preclinical Evaluation of a Permanent Stent Developed for the Human Eustachian Tube. Bioengineering (Basel). 2024 Jul 25;11(8):755. doi: 10.3390/bioengineering11080755
