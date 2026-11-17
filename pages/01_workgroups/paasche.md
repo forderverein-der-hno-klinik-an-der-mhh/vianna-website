@@ -13,10 +13,10 @@ This includes not only work with cell lines and primary cells from the inner ear
 
 **Contact Information:**
 
-    PD Dr. rer. nat. G. Paasche
+    Prof. Dr. rer. nat. G. Paasche
     Medizinische Hochschule Hannover
-	VIANNA
-    Feodor-Lynen-Straße 35
+	VIANNA im NIFE
+    Stadtfelddamm 34
     30625 Hannover
 
 <Paasche.Gerrit@mh-hannover.de> 
